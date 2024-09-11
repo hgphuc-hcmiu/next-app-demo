@@ -4,8 +4,8 @@ export default async function Page() {
     debugger;
     return (
       <ul>
-        {Object.keys(posts).map((post) => (
-          <li>{post}: {posts[post]}</li>
+        {Object.keys(posts).map((key) => (
+          <li>{key}: {posts[key]}</li>
         ))}
       </ul>
     )
